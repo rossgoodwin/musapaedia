@@ -1,0 +1,167 @@
+#frame-wrapper {
+  width: 100%;
+  height: 100%;
+  float: left;
+  display: block;
+  background-color: #000;
+}
+
+#frame-wrapper2 {
+  width: 100%;
+  height: 100%;
+  float: left;
+  display: block;
+  background-color: #4AB8B8;
+}
+
+img {
+  max-width: 4em;
+  max-height: 4em;
+  z-index: 10000!important;
+}
+
+#before {
+  cursor: pointer;
+  width: 100%;
+  z-index: 0;
+ 
+}
+
+.stanza{
+  margin-top: 10%;
+  z-index: 1000;
+  color:#fff;
+  text-align: left;
+  font-size: 2em;
+  line-height: 1.5em;
+  width: 100%;
+  /*height: 100%;*/
+  margin-left: 15%;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.button {
+  padding-bottom: 4px;
+  text-decoration: none !important;
+  float: right;
+  margin-right: 5em;
+  cursor: pointer;
+  width: 10px;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 9px 16px;
+  border: solid 1px #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font: 20px Arial, Helvetica, sans-serif;
+  color: #fff;
+  background:rgba(255,255,255,0.5);
+  /*background-image: -moz-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -webkit-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -o-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -ms-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfdae3', endColorstr='#bfdae3',GradientType=0 );*/
+  background-image: linear-gradient(top, #bedee8 0%, #bfdae3 50%);
+  -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+  box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  z-index: 100000 !important;
+  margin-top: 4em;
+}
+.button2 {
+  text-decoration: none !important;
+  float: right;
+  margin-right: .3em;
+  cursor: pointer;
+  width: 10px;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 9px 16px;
+  border: solid 1px #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font: 20px Arial, Helvetica, sans-serif;
+  color: #fff;
+  background:rgba(255,255,255,0.5);
+  /*background-image: -moz-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -webkit-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -o-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -ms-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfdae3', endColorstr='#bfdae3',GradientType=0 );*/
+  background-image: linear-gradient(top, #bedee8 0%, #bfdae3 50%);
+  -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+  box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  z-index: 100000 !important;
+  margin-top: 4em;
+
+}
+.button3 {
+  text-decoration: none !important;
+  float: right;
+  cursor: pointer;
+  width: 60px;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 9px 16px;
+  border: solid 1px #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #fff;
+  background:rgba(255,255,255,0);
+  /*background-image: -moz-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -webkit-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -o-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  background-image: -ms-linear-gradient(top, #bedee8 0%, #bfdae3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfdae3', endColorstr='#bfdae3',GradientType=0 );*/
+  background-image: linear-gradient(top, #bedee8 0%, #bfdae3 50%);
+  -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+  box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  z-index: 100000 !important;
+  margin-top: 13.5em;
+  margin-right: -6.3em;
+
+}
+.history{
+  width:84%;
+  height:20%;
+  background-color:rgba(255,255,255,0.5);
+  z-index: 1000 !important; 
+  margin-top: 20%;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  margin-right: 5em;
+
+}
+
+
+.choice{
+  width: 5em;
+  height: 5em;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.choice2{
+  width: 5em;
+  height: 5em;
+  background-color: #4AB8B8;
+  border: .5px solid #fff;
+  margin-left: 5em;
+}
+
+img.epub{
+  width: 100%
+  height:100%;
+
+}

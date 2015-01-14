@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Picture Reveal</title>
+      <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+      <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+
+<style>
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+a.gberglink {
+  font-size: 18px;
+  color: #81CFE0;
+}
+
+a.gberglink:hover {
+  color: #F5AB35;
+}
+
+
+</style>
+
+
+  </head>
+  <body>
+      <h1>musapaedia</h1>
+      <div id="frame-wrapper">
+
+          {% autoescape false %}
+          <p class="stanza">{{ poem }}</p>
+          {% endautoescape %}
+          <p class="stanza"><a class="gberglink" href="{{ gberg_url }}">Click here for this book on Project Gutenberg!</a></p>
+
+          <div class="button"><a href="">&darr;</a></div>
+          <div class="button2"><a href="y">&uarr;</a></div>
+          <div class="button3"><a href="done">Export</a></div>
+
+          <div class="history">
+            <div class="choice"></div>
+          </div>
+
+      </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
